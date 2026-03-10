@@ -1,30 +1,30 @@
-Challenge Alura Store
-Este es un desafío de la formación en Data Science del programa ONE de Alura LATAM y Oracle y consiste en crear una aplicación web simple y divertida para realizar el sorteo de amigos secretos.
+# Challenge Alura Store
+Este es un desafío de la formación en Data Science del programa ONE de Alura LATAM y Oracle y consiste en analizar el rendimiento de cuatro tiendas para determinar cuál debería ponerse en venta.
 
-✨ Características
+# Librerías Utilizadas
 
-Agregar amigos a la lista
-Sorteo aleatorio sin repetición de amigos
-Reinicio automático del juego
-🛠️ Tecnologías utilizadas
+pandas: manipulación y análisis de datos.
+matplotlib.pyplot: visualización de datos.
 
-HTML
-CSS
-JavaScript
-🚀 Cómo usar
+# Extracción de Datos
+Los datos fueron extraídos de archivos CSV almacenados en un repositorio de GitHub, utilizando la función pd.read_csv de pandas para cargar la información en DataFrames. Se disponen de 4 archivos CSV, con los datos de cada tienda analizada.
 
-1. Agrega amigos: escribe uno a uno los nombres de tus amigos en el campo de texto y haz clic en el botón "Añadir"
-2. Realiza el sorteo: haz clic en "Sortear amigo" para obtener un resultado aleatorio
-3. Reinicia el juego: el sistema se reiniciará automáticamente cuando todos los amigos hayan sido sorteados
+tienda_1.csv
+tienda_2.csv
+tienda_3.csv
+tienda_4.csv
 
-🔧 Instalación
+# Limpieza de Datos
+No se requirió ejecutar una limpieza de datos.
 
-1. Clona o descarga este repositorio
-2. Abre el archivo index.html en tu navegador
-3. ¡Comienza a usar la aplicación!
+# Análisis de Datos
+El análisis de datos se centró en los siguientes aspectos para evaluar el rendimiento de cada tienda:
 
-📝 Notas
+1. **Análisis de Facturación (Ingresos Totales)**: ae calculó la suma total de los precios de los productos vendidos en cada tienda para determinar sus ingresos brutos.
+2. **Ventas por Categoría**: se determinaron los productos más y menos vendidos a nivel global, consolidando los datos de todas las tiendas.
+3. **Calificación Promedio de la Tienda**: se calculó la calificación promedio para cada tienda, ofreciendo una métrica de la satisfacción delos clientes.
+4. **Productos Más y Menos Vendidos**: se identificaron los productos individuales más y menos vendidos en cada tienda.
+5. **Costo de Envío Promedio**: se calculó el costo de envío promedio de cada tienda.
 
-Los nombres se validan para evitar nombres repetidos
-Cada amigo solo puede ser sorteado una vez por sorteo
-Se puede ingresar un mínimo de 3 amigos para participar
+# Cómo Ejecutar el Proyecto
+Para ejecutar este análisis, solo se requiere abrir el notebook de Colab proporcionado y ejecuta las celdas en orden.
