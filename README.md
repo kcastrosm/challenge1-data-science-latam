@@ -3,8 +3,9 @@ Este es un desafío de la formación en Data Science del programa ONE de Alura L
 
 # Librerías utilizadas
 
-pandas: manipulación y análisis de datos.
-matplotlib.pyplot: visualización de datos.
+**pandas**: manipulación y análisis de datos.
+
+**matplotlib.pyplot**: visualización de datos.
 
 # Extracción de datos
 Los datos fueron extraídos de archivos CSV almacenados en un repositorio de GitHub, utilizando la función pd.read_csv de pandas para cargar la información en DataFrames. Se disponen de 4 archivos CSV, con los datos de cada tienda analizada.
